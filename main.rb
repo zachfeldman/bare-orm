@@ -1,7 +1,7 @@
 class User
 
   def self.all
-    command = `psql -d test -c SELECT * FROM users"`
+    command = `psql -d test -c "SELECT * FROM users"`
     sql_results_parser command
   end
 
