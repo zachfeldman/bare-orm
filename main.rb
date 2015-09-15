@@ -5,7 +5,7 @@ class User
     sql_results_parser command
   end
 
-  def sql_results_parser
+  def self.sql_results_parser(command)
     #some code to parse what gets returned from the SQL command
   end
   
