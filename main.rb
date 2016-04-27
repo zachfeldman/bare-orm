@@ -6,6 +6,7 @@ class User
   end
 
   def self.sql_results_parser(command)
+    puts "this is a great change"
     #some code to parse what gets returned from the SQL command
   end
   
